@@ -11,12 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hello world
-          <button onClick={() => {
-            let params =
-              `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=0,height=0,left=0,top=1,bottom=1,right=0`;
-            window.open('/survey', 'Survey', params)
-          }}>Click me</button>
+          This website is currently in development.
         </h1>
       </main>
     </div>
